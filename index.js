@@ -1,7 +1,6 @@
-// Write your code here!
-main.remove('#main');
-let h1=document.createElement('h1');
-h1.id="victory";
-document.body.appendChild(h1);
-let newHeader=document.createElement('newHeader');
-h1.appendChild(newHeader);
+const testVar = "hi"
+document.querySelector("main#main").remove();
+const newHeader = document.createElement("h1");
+newHeader.id = "victory"
+newHeader.innerHTML = "Flatiron School is the champion!";
+newHeader.className = "victory";
